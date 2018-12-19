@@ -1,32 +1,49 @@
 /* Our own custom styles */
-/* ------------ Main Navigation ----------- */
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* ------------ Main Navigation bar ----------- */
+}
 .company-name{
     font-family: 'Monoton', cursive;
+
+}
+
+ul {
+    list-style: none;
+
+}
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 0;
+    border: 0;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+#topheader .navbar-nav li > a {
+    text-transform: capitalize;
+    color: white;
+    transition: background-color .2s, color .2s;
+
+}
+
+a:hover,a:focus {
+     background-color: #5ed35e;
+     color: white;
+     border-bottom:3px solid #f7e400;
+ }
+
+
+#topheader .navbar-nav li.active > a {
+    background-color: #00796b;
+    color: white;
 }
 .information-section{
     font-size: 20px;
     font-family: 'Playfair Display', serif;
 }
-.main-nav{
-    height: 40px;
-}
-ul{
-    list-style: none;
-}
-.main-nav .navbar-item-my ul li a{
-    color: white;
-    display: inline-block !important;
-    font-size: 18px;
-}
-.navbar-item-my ul li a:hover {
-    background-color: #778264;
-    border-bottom: 2px solid orange;
-}
-.home:hover{
-    color:#721c24 ;
-}
-
-
 .shit{
    border-radius:15px;
 }
@@ -34,6 +51,7 @@ ul{
     margin-top: -60px;
 width: 50%;
 }
+/* ------------ founder section and office address details section ----------- */
 .founder-details{
     font-size: 18px;
     font-family: 'Playfair Display', serif;
@@ -64,9 +82,12 @@ background-color: white;
     float: right;
     margin-right: 10px;
 }
-.address{
+.address {
     background-color: #f7f7f7;
 }
+
+/* ------------ Quotation section ----------- */
+
 .blockquote{
     float: right;
     font-family: 'Playfair Display', serif;
@@ -74,6 +95,8 @@ background-color: white;
 .more-section,.releted-section{
     font-family: 'Mukta Mahee', sans-serif;
 }
+
+/* ------------ Quotation section ----------- */
 .footer-section{
     background-color:#041e29;
     border-radius: 3px;
