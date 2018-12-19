@@ -32,7 +32,7 @@ ul {
 a:hover,a:focus {
      background-color: #5ed35e;
      color: white;
-     border-bottom:3px solid #f7e400;
+     border-bottom:3px solid white;
  }
 
 
