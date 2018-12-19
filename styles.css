@@ -39,6 +39,18 @@ a:hover,a:focus {
 #topheader .navbar-nav li.active > a {
     background-color: #00796b;
     color: white;
+
+}a:hover,a:focus {
+     background-color: #5ed35e;
+     color: white;
+     border-bottom:3px solid white;
+ }
+
+
+#topheader .navbar-nav li.active > a {
+    background-color: #00796b;
+    color: white;
+
 }
 .information-section{
     font-size: 20px;
